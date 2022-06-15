@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/access/AccessControlEnumerable.sol";
 
-contract HCMUECertificate is ERC721, Ownable, AccessControlEnumerable{
+contract EduCertificate is ERC721, Ownable, AccessControlEnumerable{
     using Counters for Counters.Counter;
     using Strings for uint256;
     Counters.Counter _tokenIDs;
