@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract HCMUEKudoCard is ERC721, Ownable{
+contract EduKudoCard is ERC721, Ownable{
     using Counters for Counters.Counter;
     using Strings for uint256;
     Counters.Counter _tokenIDs;
